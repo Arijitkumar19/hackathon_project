@@ -72,10 +72,6 @@ public class BaseClass {
 		
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		try {
-			driver.manage().window().maximize();
-			driver.get(p.getProperty("altUrl"));
-		}catch(Exception e) {}
 		driver.get(p.getProperty("Url"));
 		//driver.manage().window().maximize();
 	}
