@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-02T10:17:36 IST" name="Suite" finished-at="2024-02-02T10:20:22 IST" duration-ms="165922">
+    <groups>
+      <group name="regression">
+        <method signature="TC001_HomePage.test1()[pri:1, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test1" class="TestCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.test2()[pri:2, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test2" class="TestCases.TC001_HomePage"/>
+        <method signature="TC002_UsedCars.test3()[pri:3, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test3" class="TestCases.TC002_UsedCars"/>
+        <method signature="TC002_UsedCars.test4()[pri:4, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test4" class="TestCases.TC002_UsedCars"/>
+        <method signature="TC001_HomePage.Test5()[pri:5, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="Test5" class="TestCases.TC001_HomePage"/>
+        <method signature="TC003_UpcomingBikePage.test6()[pri:6, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test6" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC003_UpcomingBikePage.test7()[pri:7, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test7" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC003_UpcomingBikePage.test8()[pri:8, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test8" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC001_HomePage.test1()[pri:1, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test1" class="TestCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.test2()[pri:2, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test2" class="TestCases.TC001_HomePage"/>
+        <method signature="TC002_UsedCars.test3()[pri:3, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test3" class="TestCases.TC002_UsedCars"/>
+        <method signature="TC002_UsedCars.test4()[pri:4, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test4" class="TestCases.TC002_UsedCars"/>
+        <method signature="TC001_HomePage.Test5()[pri:5, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="Test5" class="TestCases.TC001_HomePage"/>
+        <method signature="TC003_UpcomingBikePage.test6()[pri:6, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test6" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC003_UpcomingBikePage.test7()[pri:7, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test7" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC003_UpcomingBikePage.test8()[pri:8, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test8" class="TestCases.TC003_UpcomingBikePage"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC001_HomePage.Test9()[pri:9, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="Test9" class="TestCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.Test9()[pri:9, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="Test9" class="TestCases.TC001_HomePage"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC001_HomePage.test1()[pri:1, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test1" class="TestCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.test2()[pri:2, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test2" class="TestCases.TC001_HomePage"/>
+        <method signature="TC002_UsedCars.test3()[pri:3, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test3" class="TestCases.TC002_UsedCars"/>
+        <method signature="TC002_UsedCars.test4()[pri:4, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test4" class="TestCases.TC002_UsedCars"/>
+        <method signature="TC001_HomePage.Test5()[pri:5, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="Test5" class="TestCases.TC001_HomePage"/>
+        <method signature="TC003_UpcomingBikePage.test6()[pri:6, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test6" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC003_UpcomingBikePage.test7()[pri:7, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test7" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC003_UpcomingBikePage.test8()[pri:8, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="test8" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC001_HomePage.Test9()[pri:9, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" name="Test9" class="TestCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.test1()[pri:1, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test1" class="TestCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.test2()[pri:2, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test2" class="TestCases.TC001_HomePage"/>
+        <method signature="TC002_UsedCars.test3()[pri:3, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test3" class="TestCases.TC002_UsedCars"/>
+        <method signature="TC002_UsedCars.test4()[pri:4, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test4" class="TestCases.TC002_UsedCars"/>
+        <method signature="TC001_HomePage.Test5()[pri:5, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="Test5" class="TestCases.TC001_HomePage"/>
+        <method signature="TC003_UpcomingBikePage.test6()[pri:6, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test6" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC003_UpcomingBikePage.test7()[pri:7, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test7" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC003_UpcomingBikePage.test8()[pri:8, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="test8" class="TestCases.TC003_UpcomingBikePage"/>
+        <method signature="TC001_HomePage.Test9()[pri:9, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" name="Test9" class="TestCases.TC001_HomePage"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-02T10:17:36 IST" name="ChromeTest" finished-at="2024-02-02T10:19:02 IST" duration-ms="85581">
+      <class name="TestCases.TC003_UpcomingBikePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:17:37 IST" name="setup" finished-at="2024-02-02T10:17:49 IST" duration-ms="12335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:1, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:17:49 IST" name="test1" finished-at="2024-02-02T10:17:50 IST" duration-ms="1334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:17:51 IST" name="test2" finished-at="2024-02-02T10:18:00 IST" duration-ms="9027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:3, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:18:00 IST" name="test3" finished-at="2024-02-02T10:18:25 IST" duration-ms="25146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:4, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:18:26 IST" name="test4" finished-at="2024-02-02T10:18:27 IST" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="Test5()[pri:5, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:18:28 IST" name="Test5" finished-at="2024-02-02T10:18:32 IST" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method signature="test6()[pri:6, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:18:32 IST" name="test6" finished-at="2024-02-02T10:18:35 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:7, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:18:35 IST" name="test7" finished-at="2024-02-02T10:18:49 IST" duration-ms="13436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method signature="test8()[pri:8, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:18:49 IST" name="test8" finished-at="2024-02-02T10:18:51 IST" duration-ms="2256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method signature="Test9()[pri:9, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:18:53 IST" name="Test9" finished-at="2024-02-02T10:19:00 IST" duration-ms="7635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC003_UpcomingBikePage@5af3afd9]" started-at="2024-02-02T10:19:00 IST" name="teardown" finished-at="2024-02-02T10:19:02 IST" duration-ms="1455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC003_UpcomingBikePage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-02-02T10:19:02 IST" name="EdgeTest" finished-at="2024-02-02T10:20:22 IST" duration-ms="79680">
+      <class name="TestCases.TC003_UpcomingBikePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:19:02 IST" name="setup" finished-at="2024-02-02T10:19:14 IST" duration-ms="11171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:1, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:19:14 IST" name="test1" finished-at="2024-02-02T10:19:15 IST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:19:16 IST" name="test2" finished-at="2024-02-02T10:19:25 IST" duration-ms="8998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:3, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:19:25 IST" name="test3" finished-at="2024-02-02T10:19:49 IST" duration-ms="23816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:4, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:19:49 IST" name="test4" finished-at="2024-02-02T10:19:51 IST" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="Test5()[pri:5, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:19:52 IST" name="Test5" finished-at="2024-02-02T10:19:55 IST" duration-ms="3049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method signature="test6()[pri:6, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:19:55 IST" name="test6" finished-at="2024-02-02T10:19:57 IST" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:7, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:19:57 IST" name="test7" finished-at="2024-02-02T10:20:09 IST" duration-ms="11502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method signature="test8()[pri:8, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:20:09 IST" name="test8" finished-at="2024-02-02T10:20:11 IST" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method signature="Test9()[pri:9, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:20:12 IST" name="Test9" finished-at="2024-02-02T10:20:21 IST" duration-ms="8531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC003_UpcomingBikePage@7f3b84b8]" started-at="2024-02-02T10:20:21 IST" name="teardown" finished-at="2024-02-02T10:20:22 IST" duration-ms="1359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC003_UpcomingBikePage -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
