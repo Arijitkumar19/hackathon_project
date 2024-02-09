@@ -14,8 +14,8 @@
    </groups>
     <classes>
       <!--<class name="TestCases.TC001_HomePage"/>-->
-      <!--<class name="TestCases.TC002_UpcomingBikePage"/>-->
-      <class name="TestCases.TC003_UsedCars"/>
+      <!--<class name="TestCases.TC002_UsedCars"/>-->
+      <class name="TestCases.TC003_UpcomingBikePage"/>
     </classes>
   </test> <!-- Test -->	
   
@@ -29,8 +29,8 @@
    </groups>
     <classes>
       <!--<class name="TestCases.TC001_HomePage"/>-->
-      <!--<class name="TestCases.TC002_UpcomingBikePage"/>-->
-      <class name="TestCases.TC003_UsedCars"/>
+      <!--<class name="TestCases.TC002_UsedCars"/>-->
+      <class name="TestCases.TC003_UpcomingBikePage"/>
     </classes>
   </test> <!-- Test -->	
 </suite> <!-- Suite -->

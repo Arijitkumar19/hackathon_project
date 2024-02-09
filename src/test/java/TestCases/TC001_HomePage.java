@@ -13,14 +13,14 @@ public class TC001_HomePage extends BaseClass {
 		hp.titleValidation();
 	}
 	
-	@Test(priority=2, groups= {"master","regression"})
-	void test2() throws IOException {
+	@Test(priority=5, groups= {"master","regression"})
+	void test5() throws IOException {
 		HomePage hp = new HomePage(driver);
 		hp.clickingOnUpcomingBikes();
 	}
 	
-	@Test(priority=6,groups= {"master","regression"})
-	void test6() throws IOException, InterruptedException {
+	@Test(priority=2,groups= {"master","regression"})
+	void test() throws IOException, InterruptedException {
 		HomePage hp = new HomePage(driver);
 		hp.clickingOnCityForUsedCars();
 	}

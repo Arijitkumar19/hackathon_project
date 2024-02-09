@@ -6,15 +6,15 @@ import org.testng.annotations.Test;
 
 import pageobjects.UsedCarsPage;
 
-public class TC003_UsedCars extends TC001_HomePage {
-	@Test(priority=7, groups= {"master","regression"})
-	void test7() throws IOException, InterruptedException {
+public class TC002_UsedCars extends TC001_HomePage {
+	@Test(priority=3, groups= {"master","regression"})
+	void test3() throws IOException, InterruptedException {
 		UsedCarsPage up = new UsedCarsPage(driver);
 		up.displayPopularModels();
 	}
 	
-	@Test(priority=8, groups= {"master","regression"})
-	void test8() throws IOException {
+	@Test(priority=4, groups= {"master","regression"})
+	void test4() throws IOException {
 		UsedCarsPage up = new UsedCarsPage(driver);
 		up.returnToHomePage();
 

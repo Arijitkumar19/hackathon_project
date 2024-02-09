@@ -73,7 +73,7 @@ public class BaseClass {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get(p.getProperty("Url"));
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 	}
 	@AfterTest(groups= {"master"})        
 	public void teardown() {
