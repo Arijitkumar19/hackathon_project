@@ -15,6 +15,7 @@
     <classes>
       <class name="TestCases.TC003_UpcomingBikePage">
         <methods>
+          <include name="test1"/>
           <include name="test8"/>
           <include name="Test9"/>
           <include name="test7"/>
@@ -39,14 +40,16 @@
     <classes>
       <class name="TestCases.TC003_UpcomingBikePage">
         <methods>
+          <include name="test1"/>
           <include name="test8"/>
-          <include name="Test9"/>
           <include name="test7"/>
+          <include name="Test9"/>
           <include name="setup"/>
           <include name="test3"/>
           <include name="test6"/>
-          <include name="teardown"/>
+          <include name="test"/>
           <include name="test5"/>
+          <include name="teardown"/>
           <include name="test4"/>
         </methods>
       </class> <!-- TestCases.TC003_UpcomingBikePage -->

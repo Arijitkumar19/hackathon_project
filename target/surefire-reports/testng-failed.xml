@@ -7,18 +7,23 @@
   <test thread-count="5" name="ChromeTest(failed)" verbose="0">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="master"/>
+      </run>
+    </groups>
     <classes>
       <class name="TestCases.TC003_UpcomingBikePage">
         <methods>
           <include name="test1"/>
-          <include name="Test5"/>
-          <include name="test2"/>
           <include name="test8"/>
           <include name="Test9"/>
           <include name="test7"/>
           <include name="setup"/>
           <include name="test3"/>
           <include name="test6"/>
+          <include name="test"/>
+          <include name="test5"/>
           <include name="teardown"/>
           <include name="test4"/>
         </methods>
@@ -28,19 +33,24 @@
   <test thread-count="5" name="EdgeTest(failed)" verbose="0">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <include name="master"/>
+      </run>
+    </groups>
     <classes>
       <class name="TestCases.TC003_UpcomingBikePage">
         <methods>
           <include name="test1"/>
-          <include name="test2"/>
-          <include name="Test5"/>
           <include name="test8"/>
-          <include name="test7"/>
           <include name="Test9"/>
+          <include name="test7"/>
           <include name="setup"/>
           <include name="test6"/>
           <include name="test3"/>
+          <include name="test"/>
           <include name="teardown"/>
+          <include name="test5"/>
           <include name="test4"/>
         </methods>
       </class> <!-- TestCases.TC003_UpcomingBikePage -->

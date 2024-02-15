@@ -20,7 +20,7 @@ public class TC001_HomePage extends BaseClass {
 	}
 	
 	@Test(priority=2,groups= {"master","regression"})
-	void test() throws IOException, InterruptedException {
+	void test2() throws IOException, InterruptedException {
 		HomePage hp = new HomePage(driver);
 		hp.clickingOnCityForUsedCars();
 	}

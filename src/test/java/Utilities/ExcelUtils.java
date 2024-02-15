@@ -15,13 +15,13 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtils {
 
-	public static FileInputStream fi;   
-	public static FileOutputStream fo;
-	public static XSSFWorkbook wb;       
-	public static XSSFSheet ws;			 
-	public static XSSFRow row;
-	public static XSSFCell cell;
-	public static CellStyle style;   
+	public static FileInputStream fi;   // fileinputstream global variable
+	public static FileOutputStream fo;  //file outputstream global variable
+	public static XSSFWorkbook wb;      // excel workbbok global variable
+	public static XSSFSheet ws;			// excel sheet global variable
+	public static XSSFRow row;			// excel row global variable
+	public static XSSFCell cell;		// excel cell global variable
+	public static CellStyle style;     // excel style global variable
 	
 	//count rows present in excel sheet
 	public static int getRowCount(String xlfile,String xlsheet) throws IOException 

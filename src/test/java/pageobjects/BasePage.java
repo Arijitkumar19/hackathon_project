@@ -10,8 +10,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
-	public WebDriver driver;
+	public WebDriver driver; // Initialize the driver
 	public Properties p;
+	
+	// Constructor of the driver
+	
 	public BasePage(WebDriver driver) throws IOException {
 	this.driver=driver;
 	PageFactory.initElements(driver,this);

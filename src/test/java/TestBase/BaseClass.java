@@ -21,8 +21,8 @@ public class BaseClass {
 	public Properties p;
 	public Logger log;
 	public int choice;
-	@BeforeTest(groups= {"master"}) 
-	@Parameters({"os","browser"})
+	@BeforeTest(groups= {"master"}) //grouping of tests 
+	@Parameters({"os","browser"})// getting browser and os from master.xml
 	public void setup(String os, String br) throws InterruptedException, IOException {
 		FileReader file= new FileReader(".//src//test//resources//config.properties");
 		p=new Properties();

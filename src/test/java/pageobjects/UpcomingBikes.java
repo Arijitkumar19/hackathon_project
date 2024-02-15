@@ -21,27 +21,35 @@ public class UpcomingBikes extends BasePage {
 
 	//Elements
 	
+	// Homepage --> zigwheels logo
 	@FindBy(xpath="//div[@class='row qlc']//div[@class='col-lg-2']")
 	public WebElement zigwheelsLogo;
 	
+	// manufacturer dropdown
 	@FindBy(xpath="//select[@id='makeId']")
 	public WebElement manufacturesrs;
 	
+	// available bikes names element
 	@FindBy(xpath="//div[@class='p-15 pt-10 mke-ryt rel']/a/strong")
 	public List<WebElement> Bike_Names;
 	
+	// available bikes price text element
 	@FindBy(xpath="//li[contains(@class,'modelItem')]")
 	public List<WebElement> priceOfBike;
 	
+	// available bikes price text element
 	@FindBy(xpath="//div[@class='p-15 pt-10 mke-ryt rel']/div[1]")
 	public List<WebElement>Bike_Prices;
 	
+	//available bikes launch dates elements
 	@FindBy(xpath="//div[@class='p-15 pt-10 mke-ryt rel']/div[2]")
 	public List<WebElement>Bike_Launchdate;
-
+	
+	// click on view more options
 	@FindBy(xpath="//li[@class='txt-c clr moreModels mb-20']/span")
 	public WebElement viewMoreOpt;
 	
+	//honda text element
 	@FindBy(xpath="//h1[@class='mt-0 pt-2 pull-left zm-cmn-colorBlack']")
 	public WebElement hondaText; 
 	
@@ -49,6 +57,8 @@ public class UpcomingBikes extends BasePage {
 	public void returntohomepage() {
 		zigwheelsLogo.click();
 	}
+	
+	// Select honda from the manufacturer using select class
 	public void filtermanufacturer() throws InterruptedException, IOException {
 		Screenshots ss = new Screenshots(driver);
 		Select s=new Select(manufacturesrs);
@@ -63,6 +73,7 @@ public class UpcomingBikes extends BasePage {
 		}
 	}
 	
+	//scroll the page and click on view more button
 	public void scrollToViewMore() throws InterruptedException, IOException {
 		Screenshots ss = new Screenshots(driver);
 		JavascriptExecutor js = (JavascriptExecutor)driver;
@@ -73,6 +84,8 @@ public class UpcomingBikes extends BasePage {
 		Thread.sleep(3000);
 		ss.ScreenShot("Bikes");
 	}
+	
+	//get the bike name,price and launch date and print on console
 	public void displaybikedetails() throws IOException {
 		int j=1;
 		String xlFile = System.getProperty("user.dir")+"\\testData\\zigWheels.xlsx";

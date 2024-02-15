@@ -32,6 +32,7 @@ public class UsedCarsPage extends BasePage  {
 		zigWheelsLogo.click();
 	}
 	
+	// click to display popular models
 	public void displayPopularModels() throws InterruptedException, IOException {
 		Screenshots ss = new Screenshots(driver);
 		String xlFile = System.getProperty("user.dir")+"\\testData\\zigWheels.xlsx";

@@ -57,12 +57,14 @@ public class HomePage extends BasePage {
 	
 	//Action methods
 	
+	// check the title "New Cars & Bikes, Prices, News, Reviews, Buy & Sell Used Cars - ZigWheels.com"" is correct or not
 	public void titleValidation() throws IOException {
 		Screenshots ss = new Screenshots(driver);
 		ss.ScreenShot("HomePage");
 		Assert.assertEquals(title, "New Cars & Bikes, Prices, News, Reviews, Buy & Sell Used Cars - ZigWheels.com");
 	}
 	
+	//click on register with google button and switching the driver to "sign in - Google Accounts" Title
 	public void login() throws InterruptedException, IOException {
 		Screenshots ss = new Screenshots(driver);
 //		JavascriptExecutor js = (JavascriptExecutor)driver;
@@ -73,7 +75,7 @@ public class HomePage extends BasePage {
 		ss.ScreenShot("LoginSignUp");
 //		Thread.sleep(1000);
 		googleBtn.click();
-		Set<String> windowIds = driver.getWindowHandles();
+		Set<String> windowIds = driver.getWindowHandles();//handle browser window switch driver to sign in - Google Accounts Page
 		for(String s: windowIds) {
 			if(!s.equalsIgnoreCase(homePage_WindowId)) {
 				driver.switchTo().window(s);
@@ -86,6 +88,7 @@ public class HomePage extends BasePage {
 		ss.ScreenShot("googleSignIn");
 	}
 	
+	// get the error message shown after giving invalid email input
 	public void captureErrorMessage() throws IOException {
 		Screenshots ss = new Screenshots(driver);
 		String xlFile = System.getProperty("user.dir")+"\\testData\\zigWheels.xlsx";
